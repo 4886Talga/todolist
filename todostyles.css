@@ -1,0 +1,101 @@
+/*---------------------------------------------------*/
+/* BASIC SETUP */
+/*---------------------------------------------------*/	
+* {
+	margin: 0;
+	padding: 0;
+	//border: 1px solid #fff;
+}
+html{
+	background-color.: #fff;
+	color: #d5d5d5;
+	font-family: 'Lato', "Arial", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+}
+
+.flex-form {
+	min-height: 500px;
+}
+/* ------ HEADINGS ----*/
+
+/* ------ TODO SETUP ----*/
+.todo-heading {
+	color: #555;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	font-size: 90%;
+}
+.flex-list {
+	color: #555;
+}
+.ul-list-container-right {
+    border-left: 1px solid #555;
+    list-style-type: none;
+    padding: 10px 20px;
+}
+.ion-ios-trash-outline {
+	margin-left: 10px;
+}
+.li-style-left {
+	border-right-color: #555;
+	
+}
+.li-style-right {
+	border-left-color: #555;
+}
+.ion-android-more-vertical {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.todoSubmit {
+	font-family: 'Lato', "Arial", sans-serif;
+	font-weight: 400;
+}
+.flex-form {
+	display: flex;
+	flex-flow:row wrap;
+	align-content: center;
+	justify-content: flex-start;
+	text-align: center;
+}
+.flex-form > * {
+	flex: 1 100%;
+	padding: 10px;
+}
+/* Medium screens */
+@media all and (min-width: 600px) {
+  /* ------ BUTTONS ----*/
+.flex-list {
+	flex: 1;
+}
+.todo-heading {
+		color: #555;
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		word-spacing: 4px;
+		margin-bottom: 10px;
+		font-size: 200%;
+	}
+}
+@media all and (min-width: 800px) {
+  
+	.flex-list {
+	flex: 1;
+}
+	.todo-heading {
+		color: #555;
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		word-spacing: 4px;
+		margin-bottom: 10px;
+		font-size: 200%;
+	}
+}
